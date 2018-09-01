@@ -12,7 +12,7 @@ const env = process.env.DATABASE_URL;
 var connectionString =
   "postgres://vfmswhnp:SAxbUAYpDLuNjJXrKrOc6GJ6EMrzBS_y@stampy.db.elephantsql.com:5432/vfmswhnp";
 
-var db = pgp(ENV || connectionString);
+var db = pgp(env || connectionString);
 
 let categoriesArray = [];
 
