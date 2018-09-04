@@ -20,9 +20,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/availablebooks">Books</a>
 				</li>
-				<li class="nav-item">
+				{{! <li class="nav-item">
 					<a class="nav-link" href="#">About Us</a>
-				</li>
+				</li> }}
 				<li class="nav-item dropdown">
 					<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink">Users</a>
 					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-primary">
@@ -30,30 +30,14 @@
 					</div>
 				</li>
 			</ul>
-			{{! <form class="form-inline">
-				<div class="md-form my-0">
-					<input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="text">
-				</div>
-			</form> }}
+			
 		</div>
 	</nav><br>
 	<br>
 	<br>
 	<br>
 
-	{{! ---------------original form that works------------------
-	<div>
-		<h3>Sign Up</h3>
-		<form action="/userregister" method="post">
-			<p><label>User Name:<input name="userName" type="text"></label><br>
-			<br></p>
-			<p><label>Password:<input name="password" type="text"></label><br>
-			<br></p>
-			<p><label>User Name:<input name="userName" type="text"></label><br>
-			<br></p>
-			<p><input name="btnSignUp" type="submit" value="Sign Up"></p>
-		</form>
-	</div>}}
+	
 
 	<div class="container" id="registerWrapper">
 		<form action="/userregister" class="register" method="post">
